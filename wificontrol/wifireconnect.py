@@ -27,7 +27,7 @@ import signal
 import threading
 import logging
 from daemon_tree import DaemonTreeSvr
-from wificontrol import WiFiControl
+from .wificontrol import WiFiControl
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
