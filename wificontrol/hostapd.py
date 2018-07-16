@@ -34,7 +34,7 @@
 
 
 import os
-from wificommon import WiFi
+from .wificommon import WiFi
 
 
 class HostAP(WiFi):
